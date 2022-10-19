@@ -1,2 +1,2 @@
-AsyncLogService
-LogAspect
+com.base.common.log.service.AsyncLogService
+com.base.common.log.aspect.LogAspect
