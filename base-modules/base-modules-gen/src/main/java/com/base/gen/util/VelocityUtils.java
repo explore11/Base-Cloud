@@ -5,8 +5,8 @@ import com.alibaba.fastjson2.JSONObject;
 import com.base.common.core.constant.GenConstants;
 import com.base.common.core.utils.DateUtils;
 import com.base.common.core.utils.StringUtils;
-import com.base.gen.domain.GenTable;
-import com.base.gen.domain.GenTableColumn;
+import com.base.common.entity.gen.GenTable;
+import com.base.common.entity.gen.GenTableColumn;
 import org.apache.velocity.VelocityContext;
 
 import java.util.ArrayList;

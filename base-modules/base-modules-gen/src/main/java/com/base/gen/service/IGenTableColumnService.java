@@ -1,6 +1,6 @@
 package com.base.gen.service;
 
-import com.base.gen.domain.GenTableColumn;
+import com.base.common.entity.gen.GenTableColumn;
 
 import java.util.List;
 

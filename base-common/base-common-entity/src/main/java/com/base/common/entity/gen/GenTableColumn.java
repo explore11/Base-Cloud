@@ -1,4 +1,4 @@
-package com.base.gen.domain;
+package com.base.common.entity.gen;
 
 import com.base.common.core.utils.StringUtils;
 import com.base.common.core.web.domain.BaseEntity;
