@@ -1,6 +1,6 @@
 package com.base.job.mapper;
 
-import com.base.job.domain.SysJob;
+import com.base.common.entity.job.SysJob;
 
 import java.util.List;
 

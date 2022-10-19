@@ -11,43 +11,41 @@
 
     <artifactId>base-modules-job</artifactId>
 
-    <description>
-        base-modules-job定时任务
-    </description>
+    <description>base-modules-job定时任务</description>
 
     <dependencies>
-    	
-    	<!-- SpringCloud Alibaba Nacos -->
+
+        <!-- SpringCloud Alibaba Nacos -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-        
+
         <!-- SpringCloud Alibaba Nacos Config -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
-        
+
         <!-- SpringCloud Alibaba Sentinel -->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
-        
+
         <!-- SpringBoot Actuator -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-		
+
         <!-- Swagger UI -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
             <version>${swagger.fox.version}</version>
         </dependency>
-		
+
         <!-- Quartz -->
         <dependency>
             <groupId>org.quartz-scheduler</groupId>
@@ -59,25 +57,29 @@
                 </exclusion>
             </exclusions>
         </dependency>
-        
+
         <!-- Mysql Connector -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
-        
+
         <!-- RuoYi Common Log -->
         <dependency>
             <groupId>com.base</groupId>
             <artifactId>base-common-log</artifactId>
         </dependency>
-        
+
         <!-- RuoYi Common Swagger -->
         <dependency>
             <groupId>com.base</groupId>
             <artifactId>base-common-swagger</artifactId>
         </dependency>
-        
+        <dependency>
+            <groupId>com.base</groupId>
+            <artifactId>base-common-entity</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -97,5 +99,5 @@
             </plugin>
         </plugins>
     </build>
-   
+
 </project>

@@ -1,6 +1,6 @@
 package com.base.job.service;
 
-import com.base.job.domain.SysJobLog;
+import com.base.common.entity.job.SysJobLog;
 import com.base.job.mapper.SysJobLogMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

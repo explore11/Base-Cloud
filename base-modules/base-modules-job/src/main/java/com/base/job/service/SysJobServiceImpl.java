@@ -2,7 +2,7 @@ package com.base.job.service;
 
 import com.base.common.core.constant.ScheduleConstants;
 import com.base.common.core.exception.job.TaskException;
-import com.base.job.domain.SysJob;
+import com.base.common.entity.job.SysJob;
 import com.base.job.mapper.SysJobMapper;
 import com.base.job.util.CronUtils;
 import com.base.job.util.ScheduleUtils;

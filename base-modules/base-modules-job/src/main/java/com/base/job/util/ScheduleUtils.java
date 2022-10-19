@@ -6,7 +6,7 @@ import com.base.common.core.exception.job.TaskException;
 import com.base.common.core.exception.job.TaskException.Code;
 import com.base.common.core.utils.SpringUtils;
 import com.base.common.core.utils.StringUtils;
-import com.base.job.domain.SysJob;
+import com.base.common.entity.job.SysJob;
 import org.quartz.*;
 
 /**

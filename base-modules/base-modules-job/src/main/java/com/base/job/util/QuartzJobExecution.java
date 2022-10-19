@@ -1,6 +1,6 @@
 package com.base.job.util;
 
-import com.base.job.domain.SysJob;
+import com.base.common.entity.job.SysJob;
 import org.quartz.JobExecutionContext;
 
 /**

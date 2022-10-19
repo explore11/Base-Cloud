@@ -1,6 +1,6 @@
 package com.base.job.service;
 
-import com.base.job.domain.SysJobLog;
+import com.base.common.entity.job.SysJobLog;
 
 import java.util.List;
 

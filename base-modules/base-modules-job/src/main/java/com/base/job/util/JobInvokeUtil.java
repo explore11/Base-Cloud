@@ -2,7 +2,7 @@ package com.base.job.util;
 
 import com.base.common.core.utils.SpringUtils;
 import com.base.common.core.utils.StringUtils;
-import com.base.job.domain.SysJob;
+import com.base.common.entity.job.SysJob;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
