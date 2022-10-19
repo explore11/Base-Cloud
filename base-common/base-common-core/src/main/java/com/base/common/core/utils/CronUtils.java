@@ -1,4 +1,5 @@
-package com.base.job.util;
+package com.base.common.core.utils;
+
 
 import org.quartz.CronExpression;
 

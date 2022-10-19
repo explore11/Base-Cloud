@@ -11,10 +11,10 @@
 
     <artifactId>base-common-entity</artifactId>
 
-<dependencies>
-    <dependency>
-        <groupId>com.base</groupId>
-        <artifactId>base-common-core</artifactId>
-    </dependency>
-</dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>com.base</groupId>
+            <artifactId>base-common-core</artifactId>
+        </dependency>
+    </dependencies>
 </project>
